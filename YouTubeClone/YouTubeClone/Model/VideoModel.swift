@@ -8,7 +8,7 @@
 import Foundation
 
 // MARK: - VideoModel
-struct VideoModel: Codable {
+struct VideoModel: Decodable {
     let kind, etag: String
     let items: [Item]
     let pageInfo: PageInfo
