@@ -23,20 +23,20 @@ class HomePresenter{
         self.delegate = delegate
     }
     
-    func getVideos() async{
+    func getVideosHome() async{
         dataVideos.removeAll()
         
         do {
-            let channel = try await provider.getChannels(channelId: Constants.channelId).items
+//            let channel = try await provider.getChannels(channelId: Constants.channelId).items
             let playlist = try await provider.getPlaylist(channelId: Constants.channelId).items
-            let videos = try await provider.getVideos(searchString: "", channelId: Constants.channelId).items
-            
+//            let videos = try await provider.getVideos(searchString: "", channelId: Constants.channelId).items
+//            
             let playlistItems = try await provider.getPlaylistItems(playlistId: playlist.first?.id ?? "").items
             
-            dataVideos.append(channel)
+//            dataVideos.append(channel)
             dataVideos.append(playlistItems)
-            dataVideos.append(videos)
-            dataVideos.append(playlist)
+//            dataVideos.append(videos)
+//            dataVideos.append(playlist)
             
         }catch{}
         

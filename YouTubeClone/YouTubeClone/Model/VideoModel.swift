@@ -18,70 +18,34 @@ struct VideoModel: Decodable {
     }
     
     struct Item: Codable {
-        let kind, etag, id: String
+        let kind, etag: String
+        let id : VideoID
         let snippet: Snippet
-        let contentDetails: ContentDetails
-        let status: Status
-        let statistics: Statistics
-        let player: Player
-        let topicDetails: TopicDetails
         
-        struct Statistics: Codable {
-            let viewCount, likeCount, favoriteCount, commentCount: String
-        }
-
-        struct Status: Codable {
-            let uploadStatus, privacyStatus, license: String
-            let embeddable, publicStatsViewable, madeForKids: Bool
-        }
-
-        struct TopicDetails: Codable {
-            let topicCategories: [String]
-        }
-        
-        struct ContentDetails: Codable {
-            let duration, dimension, definition, caption: String
-            let licensedContent: Bool
-            let projection: String
-        }
-        
-        struct Player: Codable {
-            let embedHTML: String
-
-            enum CodingKeys: String, CodingKey {
-                case embedHTML = "embedHtml"
-            }
+        struct VideoID : Codable {
+            let kind,channelId,playlistId : String?
         }
         
         struct Snippet: Codable {
-            let publishedAt: Date
+            let publishedAt: String
             let channelID, title, description: String
             let thumbnails: Thumbnails
             let channelTitle: String
-            let tags: [String]
-            let categoryID, liveBroadcastContent: String
-            let localized: Localized
-            let defaultAudioLanguage: String
+            let liveBroadcastContent: String
 
             enum CodingKeys: String, CodingKey {
                 case publishedAt
                 case channelID = "channelId"
-                case title, description, thumbnails, channelTitle, tags
-                case categoryID = "categoryId"
-                case liveBroadcastContent, localized, defaultAudioLanguage
-            }
-            
-            struct Localized: Codable {
-                let title, description: String
+                case title, description, thumbnails, channelTitle
+                case liveBroadcastContent
             }
 
             struct Thumbnails: Codable {
-                let thumbnailsDefault, medium, high, standard: Default
-                let maxres: Default
+                let thumbnailsDefault, medium, high: Default
 
                 enum CodingKeys: String, CodingKey {
                     case thumbnailsDefault = "default"
-                    case medium, high, standard, maxres
+                    case medium, high
                 }
                 
                 struct Default: Codable {

@@ -23,7 +23,7 @@ struct PlayListModel: Codable {
         }
 
         struct Snippet: Codable {
-            let publishedAt: Date
+            let publishedAt: String
             let channelID, title, description: String
             let thumbnails: Thumbnails
             let channelTitle: String

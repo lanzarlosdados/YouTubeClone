@@ -19,8 +19,7 @@ class HomeProvider : HomeProviderProtocol {
     
     func getVideos(searchString : String, channelId : String) async throws -> VideoModel{
         
-        var queryParameters : [String : String ] = ["part":"snippet"]
-        
+        var queryParameters : [String : String ] = ["part":"snippet", "type": "video"]
         if !channelId.isEmpty {
             queryParameters["channelId"] = channelId
         }
@@ -57,7 +56,7 @@ class HomeProvider : HomeProviderProtocol {
     
     func getPlaylistItems(playlistId : String) async throws -> PlayListItemModel{
         
-        var queryParameters : [String : String ] = ["part":"snippet,id,contentDetails","playlistId": playlistId]
+        let queryParameters : [String : String ] = ["part":"snippet,id,contentDetails","playlistId": playlistId]
         
         let request = RequestModel(endpoint: .playlistItems , queryItems: queryParameters)
         

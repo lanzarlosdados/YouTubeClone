@@ -20,7 +20,7 @@ struct PlayListItemModel: Codable {
         
         struct ContentDetails: Codable {
             let videoID: String
-            let videoPublishedAt: Date
+            let videoPublishedAt: String
 
             enum CodingKeys: String, CodingKey {
                 case videoID = "videoId"
@@ -29,7 +29,7 @@ struct PlayListItemModel: Codable {
         }
         
         struct Snippet: Codable {
-            let publishedAt: Date
+            let publishedAt: String
             let channelID, title, description: String
             let thumbnails: Thumbnails
             let channelTitle, playlistID: String
