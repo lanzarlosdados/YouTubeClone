@@ -50,7 +50,7 @@ struct VideoModel: Decodable {
                 
                 struct Default: Codable {
                     let url: String
-                    let width, height: Int
+                    let width, height: Int?
                 }
             }
             
