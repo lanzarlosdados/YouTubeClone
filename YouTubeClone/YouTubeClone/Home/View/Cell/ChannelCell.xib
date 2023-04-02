@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -34,13 +35,13 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Victor Roldan Dev" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jwO-7u-ZSh">
-                                <rect key="frame" x="47.666666666666686" y="70" width="169" height="24.666666666666671"/>
+                                <rect key="frame" x="47.666666666666686" y="87" width="169" height="24.666666666666671"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="21"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r7W-HC-cdh">
-                                <rect key="frame" x="76.666666666666686" y="114" width="111" height="22"/>
+                                <rect key="frame" x="76.666666666666686" y="147.33333333333331" width="111" height="22"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SUSCRIBED" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ROd-WJ-Bue">
                                         <rect key="frame" x="0.0" y="0.0" width="92" height="22"/>
@@ -57,7 +58,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I9w-nt-Ysp">
-                                <rect key="frame" x="59.000000000000014" y="155" width="146.33333333333337" height="14"/>
+                                <rect key="frame" x="59.000000000000014" y="205.33333333333331" width="146.33333333333337" height="14"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="225 subscribers " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RIL-6h-9jC">
                                         <rect key="frame" x="0.0" y="0.0" width="89.333333333333329" height="14"/>
@@ -80,15 +81,28 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Ve-hN-6sZ">
-                                <rect key="frame" x="0.0" y="188" width="264" height="77"/>
+                                <rect key="frame" x="3" y="255" width="258.33333333333331" height="10"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nhp-5l-snW">
-                                        <rect key="frame" x="0.0" y="0.0" width="264" height="77"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nhp-5l-snW">
+                                        <rect key="frame" x="0.0" y="0.0" width="252.33333333333334" height="10"/>
                                         <string key="text">Bienvenido a mi canal, soy Victor Roldán y estoy aquí para ayudar a formarte como iOS Developer utilizando principalmente Swift y SwiftUI. Voy a estar trabajando duro para traerte contenido útil que te sirva para iniciarte en este mundo del *Software Development*.</string>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="11"/>
                                         <color key="textColor" name="grayColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eee-OX-bGv">
+                                        <rect key="frame" x="252.33333333333331" y="0.0" width="6" height="10"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="6" id="FWL-2j-wHa"/>
+                                            <constraint firstAttribute="height" constant="10" id="tga-b1-mkK"/>
+                                        </constraints>
+                                        <color key="tintColor" name="grayColor"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="chevron.right" catalog="system"/>
+                                        <connections>
+                                            <action selector="moreINformationAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="qQh-Zd-5iN"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </stackView>
                         </subviews>
@@ -110,6 +124,7 @@
                 <outlet property="bannerImage" destination="BZk-oW-KBS" id="F3p-Gs-jR0"/>
                 <outlet property="channelInfoLabel" destination="Nhp-5l-snW" id="1Vc-aH-EXe"/>
                 <outlet property="channelTitle" destination="jwO-7u-ZSh" id="SSh-if-Ste"/>
+                <outlet property="moreInformationButton" destination="eee-OX-bGv" id="KbL-sh-ysi"/>
                 <outlet property="profileImage" destination="nFe-ZV-F2k" id="wOe-5H-6Ft"/>
                 <outlet property="subscriberNumbersLabel" destination="RIL-6h-9jC" id="aJx-DZ-Ng6"/>
                 <outlet property="videosCount" destination="M8C-ah-9Hf" id="MoN-kK-gqs"/>
@@ -120,6 +135,7 @@
     <resources>
         <image name="bell.fill" catalog="system" width="123" height="128"/>
         <image name="channelBanner" width="512" height="288"/>
+        <image name="chevron.right" catalog="system" width="97" height="128"/>
         <image name="imgProfile" width="51" height="51"/>
         <namedColor name="grayColor">
             <color red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

@@ -65,6 +65,9 @@
                         <state key="normal" image="dots-1">
                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </state>
+                        <connections>
+                            <action selector="dotsButtonAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="k4h-uJ-VFm"/>
+                        </connections>
                     </button>
                 </subviews>
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -81,6 +84,7 @@
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <connections>
                 <outlet property="channelName" destination="sIj-gp-4dQ" id="XgR-rw-a8C"/>
+                <outlet property="dotsButton" destination="FXZ-FY-Rph" id="9aI-RZ-cg9"/>
                 <outlet property="dotsImage" destination="FXZ-FY-Rph" id="5NB-lV-LL6"/>
                 <outlet property="videoImage" destination="VVr-ww-7ek" id="7LP-sG-FPv"/>
                 <outlet property="videoName" destination="Kli-mC-azq" id="LeP-C3-pK1"/>

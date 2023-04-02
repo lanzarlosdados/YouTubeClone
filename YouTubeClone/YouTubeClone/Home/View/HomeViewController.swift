@@ -22,7 +22,6 @@ class HomeViewController: UIViewController {
                             cells: [
                                 ChannelCell.self,
                                 PlaylistCell.self,
-                                PlaylistItemCell.self,
                                 VideoCell.self])
         
         super.viewDidLoad()
@@ -31,6 +30,11 @@ class HomeViewController: UIViewController {
         }
     }
     
+    func configButtonSheet(){
+        let vc = BootomSheetViewController()
+        vc.modalPresentationStyle = .overCurrentContext
+        self.present(vc, animated: false)
+    }
 
 }
 
@@ -62,23 +66,33 @@ extension HomeViewController : UITableViewDelegate, UITableViewDataSource {
         if let channel = item as? [ChannelModel.Item]{
             let channelCell = tableView.dequeueReusableCell(for: ChannelCell.self, for: indexPath)
             channelCell.configCell(model: channel[indexPath.row])
+            channelCell.moreInformation = {
+                let vc = AboutViewController()
+            }
             return channelCell
             
         }else if let playlistItems = item as? [PlayListItemModel.Item]{
             let playlistItemsCell = tableView.dequeueReusableCell(for: VideoCell.self, for: indexPath)
             playlistItemsCell.configCell(model: playlistItems[indexPath.row])
-
+            playlistItemsCell.didTapDostsButton = {[weak self] in
+                self?.configButtonSheet()
+            }
             return playlistItemsCell
             
         }else if let videos = item as? [VideoModel.Item]{
             let videoCell = tableView.dequeueReusableCell(for: VideoCell.self, for: indexPath)
             videoCell.configCell(model: videos[indexPath.row])
+            videoCell.didTapDostsButton = {[weak self] in
+                self?.configButtonSheet()
+            }
             return videoCell
             
         }else if let playlist = item as? [PlayListModel.Item]{
             let playlistCell = tableView.dequeueReusableCell(for: PlaylistCell.self, for: indexPath)
             playlistCell.configCell(model: playlist[indexPath.row])
-            
+            playlistCell.didTapDostsButton = {[weak self] in
+                self?.configButtonSheet()
+            }
             return playlistCell
         }
         

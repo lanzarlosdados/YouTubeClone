@@ -15,13 +15,18 @@ class PlaylistCell: UITableViewCell {
     @IBOutlet weak var videoCount: UILabel!
     @IBOutlet weak var videoTitle: UILabel!
     @IBOutlet weak var videoImage: UIImageView!
-
+    @IBOutlet weak var dotsButtonAction: UIButton!
+    
+    var didTapDostsButton : (()->Void)?
     
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
-
+    @IBAction func dostButton(_ sender: Any) {
+        didTapDostsButton?()
+    }
+    
     func configCell(model : PlayListModel.Item){
         videoTitle.text = model.snippet.title
         videoCount.text = String(model.contentDetails.itemCount)+" videos"

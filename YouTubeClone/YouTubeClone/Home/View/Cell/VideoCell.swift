@@ -8,17 +8,22 @@
 import UIKit
 import Kingfisher
 
-class VideoCell: UITableViewCell {
+final class VideoCell: UITableViewCell {
     
     @IBOutlet weak var dotsImage: UIButton!
     @IBOutlet weak var viewsCountLabel: UILabel!
     @IBOutlet weak var channelName: UILabel!
     @IBOutlet weak var videoName: UILabel!
     @IBOutlet weak var videoImage: UIImageView!
+    @IBOutlet weak var dotsButton: UIButton!
+    
+    var didTapDostsButton : (()->Void)?
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+    }
+    @IBAction func dotsButtonAction(_ sender: Any) {
+        didTapDostsButton?()
     }
     
     func configCell(model : Any){

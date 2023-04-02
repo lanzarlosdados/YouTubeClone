@@ -15,6 +15,12 @@
 		D83839E329DA18A000EA2C78 /* VideoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83839E229DA18A000EA2C78 /* VideoProvider.swift */; };
 		D83839E529DA18B100EA2C78 /* VideoProviderMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83839E429DA18B100EA2C78 /* VideoProviderMock.swift */; };
 		D83839E729DA198600EA2C78 /* VideoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83839E629DA198600EA2C78 /* VideoPresenter.swift */; };
+		D83839EC29DA2CAF00EA2C78 /* PlaylistPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83839EB29DA2CAF00EA2C78 /* PlaylistPresenter.swift */; };
+		D83839EE29DA2CD000EA2C78 /* PlaylistProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83839ED29DA2CD000EA2C78 /* PlaylistProvider.swift */; };
+		D83839F029DA2CDD00EA2C78 /* PlaylistProviderMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83839EF29DA2CDD00EA2C78 /* PlaylistProviderMock.swift */; };
+		D83839F829DA346000EA2C78 /* BootomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83839F629DA346000EA2C78 /* BootomSheetViewController.swift */; };
+		D83839F929DA346000EA2C78 /* BootomSheetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D83839F729DA346000EA2C78 /* BootomSheetViewController.xib */; };
+		D83839FC29DA34A100EA2C78 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83839FB29DA34A100EA2C78 /* UIView+Extension.swift */; };
 		D865CD5B29C7D6540041057C /* HomeProviderMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D865CD5A29C7D6540041057C /* HomeProviderMock.swift */; };
 		D865CD5F29C7D6C50041057C /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D865CD5E29C7D6C50041057C /* Utils.swift */; };
 		D865CD6129C7D6E20041057C /* Channel.json in Resources */ = {isa = PBXBuildFile; fileRef = D865CD6029C7D6E20041057C /* Channel.json */; };
@@ -30,8 +36,6 @@
 		D8CBFE2A29CA47A900E5F0CE /* VideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8CBFE2829CA47A900E5F0CE /* VideoCell.xib */; };
 		D8CBFE2D29CA47BF00E5F0CE /* PlaylistCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CBFE2B29CA47BF00E5F0CE /* PlaylistCell.swift */; };
 		D8CBFE2E29CA47BF00E5F0CE /* PlaylistCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8CBFE2C29CA47BF00E5F0CE /* PlaylistCell.xib */; };
-		D8CBFE3129CA47D900E5F0CE /* PlaylistItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CBFE2F29CA47D900E5F0CE /* PlaylistItemCell.swift */; };
-		D8CBFE3229CA47D900E5F0CE /* PlaylistItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8CBFE3029CA47D900E5F0CE /* PlaylistItemCell.xib */; };
 		D8CE0C0C29BB699B00506E9C /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CE0C0929BB699B00506E9C /* NetworkError.swift */; };
 		D8CE0C0D29BB699B00506E9C /* RequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CE0C0A29BB699B00506E9C /* RequestModel.swift */; };
 		D8CE0C0E29BB699B00506E9C /* ServiceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CE0C0B29BB699B00506E9C /* ServiceLayer.swift */; };
@@ -67,6 +71,12 @@
 		D83839E229DA18A000EA2C78 /* VideoProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoProvider.swift; sourceTree = "<group>"; };
 		D83839E429DA18B100EA2C78 /* VideoProviderMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoProviderMock.swift; sourceTree = "<group>"; };
 		D83839E629DA198600EA2C78 /* VideoPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPresenter.swift; sourceTree = "<group>"; };
+		D83839EB29DA2CAF00EA2C78 /* PlaylistPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistPresenter.swift; sourceTree = "<group>"; };
+		D83839ED29DA2CD000EA2C78 /* PlaylistProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistProvider.swift; sourceTree = "<group>"; };
+		D83839EF29DA2CDD00EA2C78 /* PlaylistProviderMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistProviderMock.swift; sourceTree = "<group>"; };
+		D83839F629DA346000EA2C78 /* BootomSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootomSheetViewController.swift; sourceTree = "<group>"; };
+		D83839F729DA346000EA2C78 /* BootomSheetViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BootomSheetViewController.xib; sourceTree = "<group>"; };
+		D83839FB29DA34A100EA2C78 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		D865CD5A29C7D6540041057C /* HomeProviderMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProviderMock.swift; sourceTree = "<group>"; };
 		D865CD5E29C7D6C50041057C /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		D865CD6029C7D6E20041057C /* Channel.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Channel.json; sourceTree = "<group>"; };
@@ -82,8 +92,6 @@
 		D8CBFE2829CA47A900E5F0CE /* VideoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoCell.xib; sourceTree = "<group>"; };
 		D8CBFE2B29CA47BF00E5F0CE /* PlaylistCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistCell.swift; sourceTree = "<group>"; };
 		D8CBFE2C29CA47BF00E5F0CE /* PlaylistCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaylistCell.xib; sourceTree = "<group>"; };
-		D8CBFE2F29CA47D900E5F0CE /* PlaylistItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistItemCell.swift; sourceTree = "<group>"; };
-		D8CBFE3029CA47D900E5F0CE /* PlaylistItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaylistItemCell.xib; sourceTree = "<group>"; };
 		D8CE0C0929BB699B00506E9C /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		D8CE0C0A29BB699B00506E9C /* RequestModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestModel.swift; sourceTree = "<group>"; };
 		D8CE0C0B29BB699B00506E9C /* ServiceLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceLayer.swift; sourceTree = "<group>"; };
@@ -161,14 +169,66 @@
 			path = Provider;
 			sourceTree = "<group>";
 		};
+		D83839E829DA2C6500EA2C78 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D8D023C829B8CEC200E3ED89 /* PlaylistViewController.xib */,
+				D8D023C729B8CEC200E3ED89 /* PlaylistViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D83839E929DA2C6B00EA2C78 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				D83839ED29DA2CD000EA2C78 /* PlaylistProvider.swift */,
+				D83839EF29DA2CDD00EA2C78 /* PlaylistProviderMock.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		D83839EA29DA2C7A00EA2C78 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D83839EB29DA2CAF00EA2C78 /* PlaylistPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		D83839F129DA2D4C00EA2C78 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D83839E929DA2C6B00EA2C78 /* Provider */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D83839F229DA340000EA2C78 /* BottomSheet */ = {
+			isa = PBXGroup;
+			children = (
+				D83839F629DA346000EA2C78 /* BootomSheetViewController.swift */,
+				D83839F729DA346000EA2C78 /* BootomSheetViewController.xib */,
+			);
+			path = BottomSheet;
+			sourceTree = "<group>";
+		};
+		D83839FA29DA348100EA2C78 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D8CBFE1F29CA473100E5F0CE /* DequeuableRegistrableCell.swift */,
+				D83839FB29DA34A100EA2C78 /* UIView+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		D865CD5C29C7D6930041057C /* Utils */ = {
 			isa = PBXGroup;
 			children = (
 				D865CD5D29C7D6A30041057C /* Mock */,
 				D8CE0C0F29BB6A5000506E9C /* Constants */,
+				D83839FA29DA348100EA2C78 /* Extension */,
 				D865CD5E29C7D6C50041057C /* Utils.swift */,
 				D865CD6729C7D80E0041057C /* MockManager.swift */,
-				D8CBFE1F29CA473100E5F0CE /* DequeuableRegistrableCell.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -218,8 +278,6 @@
 				D8CBFE2829CA47A900E5F0CE /* VideoCell.xib */,
 				D8CBFE2B29CA47BF00E5F0CE /* PlaylistCell.swift */,
 				D8CBFE2C29CA47BF00E5F0CE /* PlaylistCell.xib */,
-				D8CBFE2F29CA47D900E5F0CE /* PlaylistItemCell.swift */,
-				D8CBFE3029CA47D900E5F0CE /* PlaylistItemCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -261,6 +319,7 @@
 		D8CE0C1429BB6FBD00506E9C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D83839F229DA340000EA2C78 /* BottomSheet */,
 				D8CBFE2129CA475D00E5F0CE /* Cell */,
 				D8D023C329B8CEB200E3ED89 /* HomeViewController.swift */,
 				D8D023C429B8CEB200E3ED89 /* HomeViewController.xib */,
@@ -289,8 +348,9 @@
 		D8D023B129B8CE0A00E3ED89 /* Playlist */ = {
 			isa = PBXGroup;
 			children = (
-				D8D023C729B8CEC200E3ED89 /* PlaylistViewController.swift */,
-				D8D023C829B8CEC200E3ED89 /* PlaylistViewController.xib */,
+				D83839F129DA2D4C00EA2C78 /* Model */,
+				D83839EA29DA2C7A00EA2C78 /* Presenter */,
+				D83839E829DA2C6500EA2C78 /* View */,
 			);
 			path = Playlist;
 			sourceTree = "<group>";
@@ -440,7 +500,6 @@
 				D8CBFE2E29CA47BF00E5F0CE /* PlaylistCell.xib in Resources */,
 				D865CD6129C7D6E20041057C /* Channel.json in Resources */,
 				D8DC7AF029AE9A3100D15FEA /* Assets.xcassets in Resources */,
-				D8CBFE3229CA47D900E5F0CE /* PlaylistItemCell.xib in Resources */,
 				D8D023BA29B8CE7D00E3ED89 /* ChannelViewController.xib in Resources */,
 				D8D023BE29B8CE8E00E3ED89 /* VideoViewController.xib in Resources */,
 				D8D023CA29B8CEC200E3ED89 /* PlaylistViewController.xib in Resources */,
@@ -448,6 +507,7 @@
 				D8CBFE2A29CA47A900E5F0CE /* VideoCell.xib in Resources */,
 				D8D023C229B8CEA500E3ED89 /* AboutViewController.xib in Resources */,
 				D865CD6329C7D6F90041057C /* SearchVideo.json in Resources */,
+				D83839F929DA346000EA2C78 /* BootomSheetViewController.xib in Resources */,
 				D8D023C629B8CEB200E3ED89 /* HomeViewController.xib in Resources */,
 				D8DC7AEE29AE9A2F00D15FEA /* Main.storyboard in Resources */,
 			);
@@ -512,7 +572,6 @@
 				D8CBFE2929CA47A900E5F0CE /* VideoCell.swift in Sources */,
 				D865CD5F29C7D6C50041057C /* Utils.swift in Sources */,
 				D8DC7AE929AE9A2F00D15FEA /* SceneDelegate.swift in Sources */,
-				D8CBFE3129CA47D900E5F0CE /* PlaylistItemCell.swift in Sources */,
 				D8D023B929B8CE7D00E3ED89 /* ChannelViewController.swift in Sources */,
 				D823AFF029B8021900CEEE12 /* VideoModel.swift in Sources */,
 				D8CBFE2029CA473100E5F0CE /* DequeuableRegistrableCell.swift in Sources */,
@@ -526,10 +585,15 @@
 				D8CE0C0C29BB699B00506E9C /* NetworkError.swift in Sources */,
 				D823AFF429B8056300CEEE12 /* PlayListModel.swift in Sources */,
 				D8CBFE2D29CA47BF00E5F0CE /* PlaylistCell.swift in Sources */,
+				D83839FC29DA34A100EA2C78 /* UIView+Extension.swift in Sources */,
 				D8CBFE2529CA479400E5F0CE /* ChannelCell.swift in Sources */,
 				D8D023B029B8CBD500E3ED89 /* RootPageViewController.swift in Sources */,
 				D83839E729DA198600EA2C78 /* VideoPresenter.swift in Sources */,
 				D823AFF629B805B400CEEE12 /* ChannelModel.swift in Sources */,
+				D83839EE29DA2CD000EA2C78 /* PlaylistProvider.swift in Sources */,
+				D83839F829DA346000EA2C78 /* BootomSheetViewController.swift in Sources */,
+				D83839EC29DA2CAF00EA2C78 /* PlaylistPresenter.swift in Sources */,
+				D83839F029DA2CDD00EA2C78 /* PlaylistProviderMock.swift in Sources */,
 				D8D023C529B8CEB200E3ED89 /* HomeViewController.swift in Sources */,
 				D8D023AE29B8CB8C00E3ED89 /* MainViewController.swift in Sources */,
 				D8CE0C1129BB6A6A00506E9C /* Constants.swift in Sources */,

@@ -18,8 +18,33 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="kxm-Cb-urY">
+                    <rect key="frame" x="12" y="71" width="369" height="366.33333333333331"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Descripcion" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fon-Xs-kgt">
+                            <rect key="frame" x="0.0" y="0.0" width="369" height="24"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Q8-y9-LTA">
+                            <rect key="frame" x="0.0" y="34" width="369" height="332.33333333333331"/>
+                            <mutableString key="text">Canal oficial de la banda uruguaya No Te Va Gustar. \n\nNO TE VA GUSTAR (NTVG) se formó en Montevideo, Uruguay, en 1994. La banda está conformada por Emiliano Brancciari (voz y guitarra), Martin Gil (trompeta), Denis Ramos (trombón), Mauricio Ortiz (saxo), Diego Bartaburu (batería), Pablo Coniberti (guitarra), Guzman Silveira (bajo) y Francisco Nasser (teclados).\n\nLa banda cuenta con 10 discos de estudio, 1 disco acústico en vivo, 5 álbumes en vivo, una reedición especial, un documental y una biografía oficial.\n\nSus discos han superado el status de Platino y se han editado en Estados Unidos, España, México, Colombia, Venezuela, Perú, Chile, Uruguay y Argentina.\n\nEl último álbum de estudio de NTVG es LUZ, estrenado el pasado 7 de mayo y producido por Héctor Castillo. El disco incluye canciones como No Te Imaginás y Dejo Atrás y grandes colaboraciones como Venganza con Nicki Nicole y Austro con Ricardo Mollo.</mutableString>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+            </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" name="backgroundColor"/>
+            <constraints>
+                <constraint firstItem="kxm-Cb-urY" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="12" id="EYb-J1-v80"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="kxm-Cb-urY" secondAttribute="trailing" constant="12" id="KEe-KO-nkl"/>
+                <constraint firstItem="kxm-Cb-urY" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="12" id="LuS-cp-dLV"/>
+            </constraints>
             <point key="canvasLocation" x="7" y="20"/>
         </view>
     </objects>

@@ -12,11 +12,14 @@ class ChannelCell: UITableViewCell {
 
     @IBOutlet weak var bannerImage: UIImageView!
     
+    @IBOutlet weak var moreInformationButton: UIButton!
     @IBOutlet weak var videosCount: UILabel!
     @IBOutlet weak var channelInfoLabel: UILabel!
     @IBOutlet weak var subscriberNumbersLabel: UILabel!
     @IBOutlet weak var channelTitle: UILabel!
     @IBOutlet weak var profileImage: UIImageView!
+    
+    var moreInformation: (()->Void)?
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -39,6 +42,12 @@ class ChannelCell: UITableViewCell {
             return
         }
         profileImage.kf.setImage(with: url)
+        
+    }
+    
+    @IBAction func moreINformationAction(_ sender: Any) {
+        print("tap channel")
+        moreInformation?()
         
     }
 }
