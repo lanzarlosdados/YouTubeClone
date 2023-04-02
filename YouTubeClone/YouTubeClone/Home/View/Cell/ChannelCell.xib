@@ -106,6 +106,14 @@
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="bannerImage" destination="BZk-oW-KBS" id="F3p-Gs-jR0"/>
+                <outlet property="channelInfoLabel" destination="Nhp-5l-snW" id="1Vc-aH-EXe"/>
+                <outlet property="channelTitle" destination="jwO-7u-ZSh" id="SSh-if-Ste"/>
+                <outlet property="profileImage" destination="nFe-ZV-F2k" id="wOe-5H-6Ft"/>
+                <outlet property="subscriberNumbersLabel" destination="RIL-6h-9jC" id="aJx-DZ-Ng6"/>
+                <outlet property="videosCount" destination="M8C-ah-9Hf" id="MoN-kK-gqs"/>
+            </connections>
             <point key="canvasLocation" x="112.97709923664122" y="20.422535211267608"/>
         </tableViewCell>
     </objects>

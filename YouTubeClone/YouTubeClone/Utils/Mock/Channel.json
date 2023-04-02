@@ -1,6 +1,6 @@
 {
     "kind": "youtube#channelListResponse",
-    "etag": "cJlIMLtjfRS6ccmDyB0VwyH55qk",
+    "etag": "uhLY7lbJcZ4yzgCINiPCFxommPU",
     "pageInfo": {
         "totalResults": 1,
         "resultsPerPage": 5
@@ -8,53 +8,52 @@
     "items": [
         {
             "kind": "youtube#channel",
-            "etag": "I1gDsrqiBH9aXXLFliPgm3ocy7E",
-            "id": "UC_I_lCplbwIf60iUgsTE79g",
+            "etag": "G33kgJPMU6lTTlkSGtxbSjqBAPw",
+            "id": "UCe5tgyOlUWikwiYHEQ02L2Q",
             "snippet": {
-                "title": "Victor Roldan Dev",
-                "description": "Bienvenido a mi canal, soy Victor Roldán y estoy aquí para ayudar a formarte como iOS Developer utilizando principalmente Swift y SwiftUI. \n\nVoy a estar trabajando duro para traerte contenido útil que te sirva para iniciarte en este mundo del *Software Development*. El contenido que estaré creando es sobre mobile development, específicamente con iOS, enfocándome principalmente en *Swift y SwiftUI*\n\nMi canal estará dirigido a todos aquellos que quieran seguir nutriéndose de conocimientos y para quienes quieran aprender a dar sus primeros pasos en el desarrollo mobile iOS.\n\nSobre mi:\nSoy Venezolano, Ingeniero en Informática, con +11 años de experiencia en el área, he sido Tech Lead durante los últimos 5 años en empresas de Software Development. En mi carrera pasé por diferentes seniorities comenzando com Jr hasta escalar a Tech Lead, en mi trayectoria he recogido un montón de conocimientos que te traigo totalmente gratis en este canal.\n",
-                "customUrl": "@victorroldandev",
-                "publishedAt": "2021-08-15T21:40:44.921697Z",
+                "title": "No Te Va Gustar",
+                "description": "Canal oficial de la banda uruguaya No Te Va Gustar. \n\nNO TE VA GUSTAR (NTVG) se formó en Montevideo, Uruguay, en 1994. La banda está conformada por Emiliano Brancciari (voz y guitarra), Martin Gil (trompeta), Denis Ramos (trombón), Mauricio Ortiz (saxo), Diego Bartaburu (batería), Pablo Coniberti (guitarra), Guzman Silveira (bajo) y Francisco Nasser (teclados).\n\nLa banda cuenta con 10 discos de estudio, 1 disco acústico en vivo, 5 álbumes en vivo, una reedición especial, un documental y una biografía oficial.\n\nSus discos han superado el status de Platino y se han editado en Estados Unidos, España, México, Colombia, Venezuela, Perú, Chile, Uruguay y Argentina.\n\nEl último álbum de estudio de NTVG es LUZ, estrenado el pasado 7 de mayo y producido por Héctor Castillo. El disco incluye canciones como No Te Imaginás y Dejo Atrás y grandes colaboraciones como Venganza con Nicki Nicole y Austro con Ricardo Mollo. \n",
+                "customUrl": "@notevagustaroficial",
+                "publishedAt": "2009-12-01T14:06:18Z",
                 "thumbnails": {
                     "default": {
-                        "url": "https://yt3.ggpht.com/kVyt7iSahighU4IIKHqvpQZHYiE9jYDCYjjs46ovc12aVuhEs_lqp5TLRSUYaJ9srTMSb3sg=s88-c-k-c0x00ffffff-no-rj",
+                        "url": "https://yt3.ggpht.com/ytc/AL5GRJXG_RLPpN7ykab-ciubVIObaYfSDXkJg3LMGejyEg=s88-c-k-c0x00ffffff-no-rj-mo",
                         "width": 88,
                         "height": 88
                     },
                     "medium": {
-                        "url": "https://yt3.ggpht.com/kVyt7iSahighU4IIKHqvpQZHYiE9jYDCYjjs46ovc12aVuhEs_lqp5TLRSUYaJ9srTMSb3sg=s240-c-k-c0x00ffffff-no-rj",
+                        "url": "https://yt3.ggpht.com/ytc/AL5GRJXG_RLPpN7ykab-ciubVIObaYfSDXkJg3LMGejyEg=s240-c-k-c0x00ffffff-no-rj-mo",
                         "width": 240,
                         "height": 240
                     },
                     "high": {
-                        "url": "https://yt3.ggpht.com/kVyt7iSahighU4IIKHqvpQZHYiE9jYDCYjjs46ovc12aVuhEs_lqp5TLRSUYaJ9srTMSb3sg=s800-c-k-c0x00ffffff-no-rj",
+                        "url": "https://yt3.ggpht.com/ytc/AL5GRJXG_RLPpN7ykab-ciubVIObaYfSDXkJg3LMGejyEg=s800-c-k-c0x00ffffff-no-rj-mo",
                         "width": 800,
                         "height": 800
                     }
                 },
-                "defaultLanguage": "es-419",
                 "localized": {
-                    "title": "Victor Roldan Dev",
-                    "description": "Bienvenido a mi canal, soy Victor Roldán y estoy aquí para ayudar a formarte como iOS Developer utilizando principalmente Swift y SwiftUI. \n\nVoy a estar trabajando duro para traerte contenido útil que te sirva para iniciarte en este mundo del *Software Development*. El contenido que estaré creando es sobre mobile development, específicamente con iOS, enfocándome principalmente en *Swift y SwiftUI*\n\nMi canal estará dirigido a todos aquellos que quieran seguir nutriéndose de conocimientos y para quienes quieran aprender a dar sus primeros pasos en el desarrollo mobile iOS.\n\nSobre mi:\nSoy Venezolano, Ingeniero en Informática, con +11 años de experiencia en el área, he sido Tech Lead durante los últimos 5 años en empresas de Software Development. En mi carrera pasé por diferentes seniorities comenzando com Jr hasta escalar a Tech Lead, en mi trayectoria he recogido un montón de conocimientos que te traigo totalmente gratis en este canal.\n"
+                    "title": "No Te Va Gustar",
+                    "description": "Canal oficial de la banda uruguaya No Te Va Gustar. \n\nNO TE VA GUSTAR (NTVG) se formó en Montevideo, Uruguay, en 1994. La banda está conformada por Emiliano Brancciari (voz y guitarra), Martin Gil (trompeta), Denis Ramos (trombón), Mauricio Ortiz (saxo), Diego Bartaburu (batería), Pablo Coniberti (guitarra), Guzman Silveira (bajo) y Francisco Nasser (teclados).\n\nLa banda cuenta con 10 discos de estudio, 1 disco acústico en vivo, 5 álbumes en vivo, una reedición especial, un documental y una biografía oficial.\n\nSus discos han superado el status de Platino y se han editado en Estados Unidos, España, México, Colombia, Venezuela, Perú, Chile, Uruguay y Argentina.\n\nEl último álbum de estudio de NTVG es LUZ, estrenado el pasado 7 de mayo y producido por Héctor Castillo. El disco incluye canciones como No Te Imaginás y Dejo Atrás y grandes colaboraciones como Venganza con Nicki Nicole y Austro con Ricardo Mollo. \n"
                 },
-                "country": "CO"
+                "country": "UY"
             },
             "statistics": {
-                "viewCount": "63043",
-                "subscriberCount": "1570",
+                "viewCount": "835046077",
+                "subscriberCount": "1180000",
                 "hiddenSubscriberCount": false,
-                "videoCount": "96"
+                "videoCount": "328"
             },
             "brandingSettings": {
                 "channel": {
-                    "title": "Victor Roldan Dev",
-                    "description": "Bienvenido a mi canal, soy Victor Roldán y estoy aquí para ayudar a formarte como iOS Developer utilizando principalmente Swift y SwiftUI. \n\nVoy a estar trabajando duro para traerte contenido útil que te sirva para iniciarte en este mundo del *Software Development*. El contenido que estaré creando es sobre mobile development, específicamente con iOS, enfocándome principalmente en *Swift y SwiftUI*\n\nMi canal estará dirigido a todos aquellos que quieran seguir nutriéndose de conocimientos y para quienes quieran aprender a dar sus primeros pasos en el desarrollo mobile iOS.\n\nSobre mi:\nSoy Venezolano, Ingeniero en Informática, con +11 años de experiencia en el área, he sido Tech Lead durante los últimos 5 años en empresas de Software Development. En mi carrera pasé por diferentes seniorities comenzando com Jr hasta escalar a Tech Lead, en mi trayectoria he recogido un montón de conocimientos que te traigo totalmente gratis en este canal.\n",
-                    "keywords": "ios development tutorials xcode swift uikit swiftui mobile app \"iOS app\" \"Victor Roldan\" \"como comenzar con xcode\" \"tutoriales de iOS\" \"curso gratis ios swift\" \"roldan victor\" \"curso swift\" \"tutorial de swift\" \"tutorial swift ios\" \"como crear una aplicación en ios\" \"programar en swift\" \"como programar en swift\" \"como comenzar con swift\" \"programar en swiftui\"",
-                    "defaultLanguage": "es-419",
-                    "country": "CO"
+                    "title": "No Te Va Gustar",
+                    "description": "Canal oficial de la banda uruguaya No Te Va Gustar. \n\nNO TE VA GUSTAR (NTVG) se formó en Montevideo, Uruguay, en 1994. La banda está conformada por Emiliano Brancciari (voz y guitarra), Martin Gil (trompeta), Denis Ramos (trombón), Mauricio Ortiz (saxo), Diego Bartaburu (batería), Pablo Coniberti (guitarra), Guzman Silveira (bajo) y Francisco Nasser (teclados).\n\nLa banda cuenta con 10 discos de estudio, 1 disco acústico en vivo, 5 álbumes en vivo, una reedición especial, un documental y una biografía oficial.\n\nSus discos han superado el status de Platino y se han editado en Estados Unidos, España, México, Colombia, Venezuela, Perú, Chile, Uruguay y Argentina.\n\nEl último álbum de estudio de NTVG es LUZ, estrenado el pasado 7 de mayo y producido por Héctor Castillo. El disco incluye canciones como No Te Imaginás y Dejo Atrás y grandes colaboraciones como Venganza con Nicki Nicole y Austro con Ricardo Mollo. \n",
+                    "keywords": "ntvg ntvgtv ntvg.tv \"no te va gustar\" \"no te va a gustar\" note",
+                    "unsubscribedTrailer": "ZPztSbX0Y7U",
+                    "country": "UY"
                 },
                 "image": {
-                    "bannerExternalUrl": "https://yt3.googleusercontent.com/hxiGT9qtuCfjmx7NKEfsBH1JfVRohXZ8PDX3f90WkFDTVGE5wL7TuILG4oUVmKUGQB44xWN_ag"
+                    "bannerExternalUrl": "https://yt3.googleusercontent.com/wxuJTAjjaIkQ5hO2siNAnZgLLVUUE3GgZ1GwrQ78dmJuZ2VFVMZxpAWc9dU4OildW1rpXDGr8VU"
                 }
             }
         }

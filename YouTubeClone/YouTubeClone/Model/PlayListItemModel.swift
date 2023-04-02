@@ -67,7 +67,7 @@ struct PlayListItemModel: Codable {
                 }
                 
                 struct Default: Codable {
-                    let url: String
+                    let url: String?
                     let width, height: Int
                 }
             }

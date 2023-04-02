@@ -1,143 +1,97 @@
 {
     "kind": "youtube#playlistListResponse",
-    "etag": "ujg3H65IMN0UiEBt2nGra3KeEpc",
+    "etag": "uWeLlvHOKNCgOTWAtUU11AuXhLk",
     "nextPageToken": "CAUQAA",
     "pageInfo": {
-        "totalResults": 11,
+        "totalResults": 28,
         "resultsPerPage": 5
     },
     "items": [
         {
             "kind": "youtube#playlist",
-            "etag": "3XX-xkoPr8X2Lwftr5Sj_6DANns",
-            "id": "PLT_OObKZ3CptOu3A6_Mv-lk7iPU_sbNq5",
+            "etag": "9xQzNA37VL98p7wGKwWLTgplDrE",
+            "id": "PLZv9axzuJvQZn1I2gy1L9akSI-I5Evtc-",
             "snippet": {
-                "publishedAt": "2022-08-30T06:17:55Z",
-                "channelId": "UC_I_lCplbwIf60iUgsTE79g",
-                "title": "Shapes en SwiftUI",
-                "description": "",
+                "publishedAt": "2022-03-30T23:56:37Z",
+                "channelId": "UCe5tgyOlUWikwiYHEQ02L2Q",
+                "title": "En Vivo En El Estadio Único de La Plata",
+                "description": "Filmado y grabado en vivo en el Estadio Único de la Plata el 18 de diciembre de 2021.",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/gZGg5QP-sj4/default.jpg",
+                        "url": "https://i.ytimg.com/vi/sKyFgRC4yFs/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/gZGg5QP-sj4/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/sKyFgRC4yFs/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/gZGg5QP-sj4/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/sKyFgRC4yFs/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     },
                     "standard": {
-                        "url": "https://i.ytimg.com/vi/gZGg5QP-sj4/sddefault.jpg",
+                        "url": "https://i.ytimg.com/vi/sKyFgRC4yFs/sddefault.jpg",
                         "width": 640,
                         "height": 480
                     },
                     "maxres": {
-                        "url": "https://i.ytimg.com/vi/gZGg5QP-sj4/maxresdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/sKyFgRC4yFs/maxresdefault.jpg",
                         "width": 1280,
                         "height": 720
                     }
                 },
-                "channelTitle": "Victor Roldan Dev",
+                "channelTitle": "No Te Va Gustar",
                 "localized": {
-                    "title": "Shapes en SwiftUI",
-                    "description": ""
+                    "title": "En Vivo En El Estadio Único de La Plata",
+                    "description": "Filmado y grabado en vivo en el Estadio Único de la Plata el 18 de diciembre de 2021."
                 }
             },
             "contentDetails": {
-                "itemCount": 2
+                "itemCount": 15
             }
         },
         {
             "kind": "youtube#playlist",
-            "etag": "NlNo4x4yVMuzQ5apN-h0tsli-gg",
-            "id": "PLT_OObKZ3CpscUEWebc7hReP24nXjhui4",
+            "etag": "BsZROd0BRsVlJpQThEKsfYMh_JM",
+            "id": "PLZv9axzuJvQZxQsdfTwMj4gCCNOZ4hSs9",
             "snippet": {
-                "publishedAt": "2022-06-20T16:03:50Z",
-                "channelId": "UC_I_lCplbwIf60iUgsTE79g",
-                "title": "Curso de SwiftUI 4 para Principiantes",
-                "description": "Un curso de introducción a SwiftUI 4.0 donde paso por sus principales componentes y te enteres de cómo funciona este Framework.",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/b-GYQYUQzAQ/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/b-GYQYUQzAQ/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/b-GYQYUQzAQ/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    },
-                    "standard": {
-                        "url": "https://i.ytimg.com/vi/b-GYQYUQzAQ/sddefault.jpg",
-                        "width": 640,
-                        "height": 480
-                    },
-                    "maxres": {
-                        "url": "https://i.ytimg.com/vi/b-GYQYUQzAQ/maxresdefault.jpg",
-                        "width": 1280,
-                        "height": 720
-                    }
-                },
-                "channelTitle": "Victor Roldan Dev",
-                "localized": {
-                    "title": "Curso de SwiftUI 4 para Principiantes",
-                    "description": "Un curso de introducción a SwiftUI 4.0 donde paso por sus principales componentes y te enteres de cómo funciona este Framework."
-                }
-            },
-            "contentDetails": {
-                "itemCount": 18
-            }
-        },
-        {
-            "kind": "youtube#playlist",
-            "etag": "cmN3dkYAfl772eQxjBpf2iDWgP8",
-            "id": "PLT_OObKZ3Cpta8gTfbI_ynqu7TgWCYxKO",
-            "snippet": {
-                "publishedAt": "2022-06-07T15:57:38Z",
-                "channelId": "UC_I_lCplbwIf60iUgsTE79g",
-                "title": "WWDC22",
+                "publishedAt": "2022-02-10T03:02:31Z",
+                "channelId": "UCe5tgyOlUWikwiYHEQ02L2Q",
+                "title": "Videos animados",
                 "description": "",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/77dIzaydGO0/default.jpg",
+                        "url": "https://i.ytimg.com/vi/aXH01gUCtmk/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/77dIzaydGO0/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/aXH01gUCtmk/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/77dIzaydGO0/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/aXH01gUCtmk/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     },
                     "standard": {
-                        "url": "https://i.ytimg.com/vi/77dIzaydGO0/sddefault.jpg",
+                        "url": "https://i.ytimg.com/vi/aXH01gUCtmk/sddefault.jpg",
                         "width": 640,
                         "height": 480
                     },
                     "maxres": {
-                        "url": "https://i.ytimg.com/vi/77dIzaydGO0/maxresdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/aXH01gUCtmk/maxresdefault.jpg",
                         "width": 1280,
                         "height": 720
                     }
                 },
-                "channelTitle": "Victor Roldan Dev",
+                "channelTitle": "No Te Va Gustar",
                 "localized": {
-                    "title": "WWDC22",
+                    "title": "Videos animados",
                     "description": ""
                 }
             },
@@ -147,94 +101,140 @@
         },
         {
             "kind": "youtube#playlist",
-            "etag": "sYs0in_3FbDvA4rckmS2_DDooZ4",
-            "id": "PLT_OObKZ3CpvYfPoK9wX57M1JiggnxW8t",
+            "etag": "ZzbXzWEMLkHmk5W6xztUw0XhiX4",
+            "id": "PLZv9axzuJvQZj_ItIJ3eJNvbxgExrhCWo",
             "snippet": {
-                "publishedAt": "2022-06-02T01:42:50Z",
-                "channelId": "UC_I_lCplbwIf60iUgsTE79g",
-                "title": "Patrones de Diseño - Swift",
-                "description": "",
+                "publishedAt": "2022-02-10T00:23:33Z",
+                "channelId": "UCe5tgyOlUWikwiYHEQ02L2Q",
+                "title": "Detrás de escena",
+                "description": "Documentales, backstages, giras, grabaciones",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/jFKuMb6kILU/default.jpg",
+                        "url": "https://i.ytimg.com/vi/fFwmWdA-q4c/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/jFKuMb6kILU/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/fFwmWdA-q4c/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/jFKuMb6kILU/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/fFwmWdA-q4c/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     },
                     "standard": {
-                        "url": "https://i.ytimg.com/vi/jFKuMb6kILU/sddefault.jpg",
+                        "url": "https://i.ytimg.com/vi/fFwmWdA-q4c/sddefault.jpg",
                         "width": 640,
                         "height": 480
                     },
                     "maxres": {
-                        "url": "https://i.ytimg.com/vi/jFKuMb6kILU/maxresdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/fFwmWdA-q4c/maxresdefault.jpg",
                         "width": 1280,
                         "height": 720
                     }
                 },
-                "channelTitle": "Victor Roldan Dev",
+                "channelTitle": "No Te Va Gustar",
                 "localized": {
-                    "title": "Patrones de Diseño - Swift",
-                    "description": ""
+                    "title": "Detrás de escena",
+                    "description": "Documentales, backstages, giras, grabaciones"
                 }
             },
             "contentDetails": {
-                "itemCount": 3
+                "itemCount": 49
             }
         },
         {
             "kind": "youtube#playlist",
-            "etag": "m-oO2HVUiW9IIhlu184tQ_IF8yQ",
-            "id": "PLT_OObKZ3CpvP4iIGm4U1oWXL2-ksx2E4",
+            "etag": "kbTacaHvm9fKI753U5tn8gBjYq8",
+            "id": "PLZv9axzuJvQbAAScpyfZyw_oIKvYv5mz5",
             "snippet": {
-                "publishedAt": "2022-05-23T13:33:20Z",
-                "channelId": "UC_I_lCplbwIf60iUgsTE79g",
-                "title": "Curso de Unit Testing con Swift - Xcode",
-                "description": "En esta serie de videos te enseño cómo crear las pruebas unitarias o unit tests en tu aplicación. La idea es que a partir de ahora tengas conocimientos suficientes como para crear tus propios unit tests en tu aplicación. Debes ver todos los videos para entender por completo cómo funcionan los tests y para qué se usan en el desarrollo de una aplicación.",
+                "publishedAt": "2022-02-08T21:30:02Z",
+                "channelId": "UCe5tgyOlUWikwiYHEQ02L2Q",
+                "title": "LUZ - ÁLBUM COMPLETO",
+                "description": "",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/B_FZvzj6VvA/default.jpg",
+                        "url": "https://i.ytimg.com/vi/tC-uNTadLmk/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/B_FZvzj6VvA/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/tC-uNTadLmk/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/B_FZvzj6VvA/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/tC-uNTadLmk/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     },
                     "standard": {
-                        "url": "https://i.ytimg.com/vi/B_FZvzj6VvA/sddefault.jpg",
+                        "url": "https://i.ytimg.com/vi/tC-uNTadLmk/sddefault.jpg",
                         "width": 640,
                         "height": 480
                     },
                     "maxres": {
-                        "url": "https://i.ytimg.com/vi/B_FZvzj6VvA/maxresdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/tC-uNTadLmk/maxresdefault.jpg",
                         "width": 1280,
                         "height": 720
                     }
                 },
-                "channelTitle": "Victor Roldan Dev",
+                "channelTitle": "No Te Va Gustar",
                 "localized": {
-                    "title": "Curso de Unit Testing con Swift - Xcode",
-                    "description": "En esta serie de videos te enseño cómo crear las pruebas unitarias o unit tests en tu aplicación. La idea es que a partir de ahora tengas conocimientos suficientes como para crear tus propios unit tests en tu aplicación. Debes ver todos los videos para entender por completo cómo funcionan los tests y para qué se usan en el desarrollo de una aplicación."
+                    "title": "LUZ - ÁLBUM COMPLETO",
+                    "description": ""
                 }
             },
             "contentDetails": {
-                "itemCount": 9
+                "itemCount": 12
+            }
+        },
+        {
+            "kind": "youtube#playlist",
+            "etag": "J9r4wdZfi7iHrQOD2EH-_Dv9H_s",
+            "id": "PLZv9axzuJvQYhOGD5ylj1ITvCGyQsy4ov",
+            "snippet": {
+                "publishedAt": "2021-06-17T21:10:19Z",
+                "channelId": "UCe5tgyOlUWikwiYHEQ02L2Q",
+                "title": "En Vivo",
+                "description": "Shows en vivo",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/a3dYXdfViV0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/a3dYXdfViV0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/a3dYXdfViV0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/a3dYXdfViV0/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/a3dYXdfViV0/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "No Te Va Gustar",
+                "localized": {
+                    "title": "En Vivo",
+                    "description": "Shows en vivo"
+                }
+            },
+            "contentDetails": {
+                "itemCount": 27
             }
         }
     ]

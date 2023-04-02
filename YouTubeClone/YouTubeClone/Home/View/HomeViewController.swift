@@ -41,9 +41,7 @@ extension HomeViewController : HomeViewProtocol {
         dataSectionTitleList = sectionTitleList
         
         tableView.reloadData()
-        
-        print(list)
-        print(sectionTitleList)
+
     }
     
 }
@@ -63,23 +61,23 @@ extension HomeViewController : UITableViewDelegate, UITableViewDataSource {
         
         if let channel = item as? [ChannelModel.Item]{
             let channelCell = tableView.dequeueReusableCell(for: ChannelCell.self, for: indexPath)
-//            channelCell.configCell(model: channel[indexPath.row])
+            channelCell.configCell(model: channel[indexPath.row])
             return channelCell
             
         }else if let playlistItems = item as? [PlayListItemModel.Item]{
             let playlistItemsCell = tableView.dequeueReusableCell(for: VideoCell.self, for: indexPath)
-//            playlistItemsCell.configCell(model: playlistItems[indexPath.row])
+            playlistItemsCell.configCell(model: playlistItems[indexPath.row])
 
             return playlistItemsCell
             
         }else if let videos = item as? [VideoModel.Item]{
             let videoCell = tableView.dequeueReusableCell(for: VideoCell.self, for: indexPath)
-//            videoCell.configCell(model: videos[indexPath.row])
+            videoCell.configCell(model: videos[indexPath.row])
             return videoCell
             
         }else if let playlist = item as? [PlayListModel.Item]{
             let playlistCell = tableView.dequeueReusableCell(for: PlaylistCell.self, for: indexPath)
-//            playlistCell.configCell(model: playlist[indexPath.row])
+            playlistCell.configCell(model: playlist[indexPath.row])
             
             return playlistCell
         }

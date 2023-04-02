@@ -70,7 +70,7 @@
                         </constraints>
                     </view>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zUu-pu-Xgb">
-                        <rect key="frame" x="295" y="237" width="13" height="13"/>
+                        <rect key="frame" x="301" y="237" width="13" height="13"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="13" id="B1J-Ut-NZM"/>
                             <constraint firstAttribute="height" constant="13" id="GdU-5F-Efa"/>
@@ -79,16 +79,16 @@
                         <state key="normal" image="dots-1"/>
                     </button>
                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Suq-e3-UJh">
-                        <rect key="frame" x="28" y="237" width="267" height="53"/>
+                        <rect key="frame" x="28" y="237" width="273" height="53"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Manejo de Memoria" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x24-S7-wl9">
-                                <rect key="frame" x="0.0" y="0.0" width="267" height="24.333333333333332"/>
+                                <rect key="frame" x="0.0" y="0.0" width="273" height="24.333333333333332"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
                                 <color key="textColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3 videos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PRj-z6-03g">
-                                <rect key="frame" x="0.0" y="29.333333333333314" width="267" height="23.666666666666671"/>
+                                <rect key="frame" x="0.0" y="29.333333333333314" width="273" height="23.666666666666671"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="11"/>
                                 <color key="textColor" name="grayColor"/>
                                 <nil key="highlightedColor"/>
@@ -104,12 +104,19 @@
                     <constraint firstItem="zUu-pu-Xgb" firstAttribute="top" secondItem="zcL-kv-UoT" secondAttribute="bottom" constant="6" id="M7Y-oi-wU6"/>
                     <constraint firstItem="zcL-kv-UoT" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="S98-Qv-RDj"/>
                     <constraint firstItem="Suq-e3-UJh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="12" id="WyY-92-kqT"/>
-                    <constraint firstAttribute="right" secondItem="zUu-pu-Xgb" secondAttribute="right" constant="12" id="apU-Dp-xG6"/>
+                    <constraint firstAttribute="right" secondItem="zUu-pu-Xgb" secondAttribute="right" constant="6" id="apU-Dp-xG6"/>
                     <constraint firstAttribute="right" secondItem="zcL-kv-UoT" secondAttribute="right" constant="12" id="uq4-sg-rMA"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="dotsImage" destination="zUu-pu-Xgb" id="0Cp-LP-HGG"/>
+                <outlet property="videoCount" destination="PRj-z6-03g" id="8Bp-Dn-LL8"/>
+                <outlet property="videoCountOverlay" destination="IEF-0U-jjt" id="G7w-h4-HVw"/>
+                <outlet property="videoImage" destination="VFo-8t-xkL" id="fLf-dv-Odb"/>
+                <outlet property="videoTitle" destination="x24-S7-wl9" id="VoS-51-Bsx"/>
+            </connections>
             <point key="canvasLocation" x="138.93129770992365" y="19.366197183098592"/>
         </tableViewCell>
     </objects>

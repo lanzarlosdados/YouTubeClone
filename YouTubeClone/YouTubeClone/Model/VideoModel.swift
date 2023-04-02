@@ -21,6 +21,13 @@ struct VideoModel: Decodable {
         let kind, etag: String
         let id : VideoID
         let snippet: Snippet
+        let statistics: Statistics?
+        
+        struct Statistics: Codable {
+            let viewCount, subscriberCount: String
+            let hiddenSubscriberCount: Bool
+            let videoCount: String
+        }
         
         struct VideoID : Codable {
             let kind,channelId,playlistId : String?
@@ -49,7 +56,7 @@ struct VideoModel: Decodable {
                 }
                 
                 struct Default: Codable {
-                    let url: String
+                    let url: String?
                     let width, height: Int?
                 }
             }

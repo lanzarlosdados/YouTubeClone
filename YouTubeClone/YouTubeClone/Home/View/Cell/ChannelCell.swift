@@ -6,12 +6,39 @@
 //
 
 import UIKit
+import Kingfisher
 
 class ChannelCell: UITableViewCell {
 
+    @IBOutlet weak var bannerImage: UIImageView!
+    
+    @IBOutlet weak var videosCount: UILabel!
+    @IBOutlet weak var channelInfoLabel: UILabel!
+    @IBOutlet weak var subscriberNumbersLabel: UILabel!
+    @IBOutlet weak var channelTitle: UILabel!
+    @IBOutlet weak var profileImage: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        profileImage.layer.cornerRadius = profileImage.frame.height/2
     }
- 
+    
+    func configCell(model : ChannelModel.Item){
+        channelInfoLabel.text = model.snippet.description
+        channelTitle.text = model.snippet.title
+        subscriberNumbersLabel.text = "\(model.statistics.subscriberCount ) subscribers"
+        videosCount.text = "\(model.statistics.videoCount ) videos"
+        
+        if let bannerUrl = model.brandingSettings.image.bannerExternalURL, let url = URL(string: bannerUrl){
+            bannerImage.kf.setImage(with: url)
+        }
+        
+        let imageUrl = model.snippet.thumbnails.medium.url
+        
+        guard let url = URL(string: imageUrl) else{
+            return
+        }
+        profileImage.kf.setImage(with: url)
+        
+    }
 }
