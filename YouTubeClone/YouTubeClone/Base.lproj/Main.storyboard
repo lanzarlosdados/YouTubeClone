@@ -18,22 +18,81 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uIJ-ij-46J">
-                                <rect key="frame" x="0.0" y="103" width="393" height="715"/>
+                                <rect key="frame" x="0.0" y="147" width="393" height="671"/>
                                 <connections>
                                     <segue destination="Ceb-Rm-biv" kind="embed" id="p7Z-EJ-62b"/>
                                 </connections>
                             </containerView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rRh-sg-rRX">
+                                <rect key="frame" x="30" y="103" width="363" height="44"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="a0g-H1-Sxn">
+                                        <rect key="frame" x="0.0" y="0.0" width="416.66666666666669" height="44"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oDV-eb-FAw">
+                                                <rect key="frame" x="0.0" y="0.0" width="50.666666666666664" height="44"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VIDEOS" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pm4-rg-J6E">
+                                                <rect key="frame" x="70.666666666666671" y="0.0" width="61.333333333333329" height="44"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                <color key="textColor" name="grayColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PLAYLIST" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kqH-Ha-pO2">
+                                                <rect key="frame" x="152" y="0.0" width="76" height="44"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                <color key="textColor" name="grayColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CHANNELS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B8Q-Qu-cQ3">
+                                                <rect key="frame" x="248" y="0.0" width="91" height="44"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                <color key="textColor" name="grayColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" tag="4" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ABOUT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d3l-tj-SDx">
+                                                <rect key="frame" x="359" y="0.0" width="57.666666666666686" height="44"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                <color key="textColor" name="grayColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="a0g-H1-Sxn" firstAttribute="leading" secondItem="rRh-sg-rRX" secondAttribute="leading" id="700-hR-F64"/>
+                                    <constraint firstAttribute="height" constant="44" id="7p3-xy-Qy1"/>
+                                    <constraint firstAttribute="trailing" secondItem="a0g-H1-Sxn" secondAttribute="trailing" id="89x-Uh-gtT"/>
+                                    <constraint firstItem="a0g-H1-Sxn" firstAttribute="width" secondItem="rRh-sg-rRX" secondAttribute="width" priority="250" id="Iz5-gC-UIr"/>
+                                    <constraint firstItem="a0g-H1-Sxn" firstAttribute="top" secondItem="rRh-sg-rRX" secondAttribute="top" id="NaW-lf-yNf"/>
+                                    <constraint firstItem="a0g-H1-Sxn" firstAttribute="height" secondItem="rRh-sg-rRX" secondAttribute="height" id="d6e-ZS-Opn"/>
+                                    <constraint firstAttribute="bottom" secondItem="a0g-H1-Sxn" secondAttribute="bottom" id="ika-Zu-9W8"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" name="backgroundColor"/>
                         <constraints>
-                            <constraint firstItem="uIJ-ij-46J" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="5AX-dw-Fsk"/>
                             <constraint firstItem="uIJ-ij-46J" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="A1J-KA-LXb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rRh-sg-rRX" secondAttribute="trailing" id="a2O-qQ-4Tz"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uIJ-ij-46J" secondAttribute="trailing" id="hdd-Ym-tQp"/>
+                            <constraint firstItem="uIJ-ij-46J" firstAttribute="top" secondItem="rRh-sg-rRX" secondAttribute="bottom" id="ipk-No-LYo"/>
+                            <constraint firstItem="rRh-sg-rRX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="k5e-UC-5Pk"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="uIJ-ij-46J" secondAttribute="bottom" id="mor-mP-J9S"/>
+                            <constraint firstItem="rRh-sg-rRX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="tZP-tj-Hud"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="aTY-Vt-lHJ"/>
+                    <connections>
+                        <outlet property="about" destination="d3l-tj-SDx" id="iNQ-qG-Dvl"/>
+                        <outlet property="channels" destination="B8Q-Qu-cQ3" id="AWi-TX-OQH"/>
+                        <outlet property="home" destination="oDV-eb-FAw" id="kLi-OP-Gfa"/>
+                        <outlet property="playlist" destination="kqH-Ha-pO2" id="tb2-JD-aoZ"/>
+                        <outlet property="videos" destination="Pm4-rg-J6E" id="T0e-pm-s2U"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -69,6 +128,9 @@
     <resources>
         <namedColor name="backgroundColor">
             <color red="0.1289999932050705" green="0.1289999932050705" blue="0.1289999932050705" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="grayColor">
+            <color red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>

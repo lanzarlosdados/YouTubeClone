@@ -9,9 +9,17 @@ import UIKit
 
 class MainViewController: BaseViewController {
     
+    @IBOutlet weak var home: UILabel!
+    @IBOutlet weak var videos: UILabel!
+    @IBOutlet weak var channels: UILabel!
+    @IBOutlet weak var playlist: UILabel!
+    @IBOutlet weak var about: UILabel!
+    
     var rootPageViewController : RootPageViewController!
     
     override func viewDidLoad() {
+       
+        
         super.viewDidLoad()
         configNavigationBar()
     }
@@ -24,6 +32,8 @@ class MainViewController: BaseViewController {
 
         }
     }
+    
+
 }
 
 extension MainViewController : RootPageProtocol {
