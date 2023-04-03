@@ -65,6 +65,10 @@ extension UITableView {
         return cell
     }
     
+    public func registerFromClass<T: UITableViewHeaderFooterView>(headerFooterView: T.Type) {
+        register(T.self, forHeaderFooterViewReuseIdentifier: "\(T.self)")
+        
+    }
     
     func configure(delegate: UITableViewDelegate? = nil, dataSource: UITableViewDataSource? = nil, cells: [UITableViewCell.Type], showIndicators: Bool = false, refreshControlTarget: NSObject? = nil, refreshControlAction: Selector? = nil) {
         self.delegate = delegate

@@ -21,6 +21,8 @@
 		D83839F829DA346000EA2C78 /* BootomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83839F629DA346000EA2C78 /* BootomSheetViewController.swift */; };
 		D83839F929DA346000EA2C78 /* BootomSheetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D83839F729DA346000EA2C78 /* BootomSheetViewController.xib */; };
 		D83839FC29DA34A100EA2C78 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83839FB29DA34A100EA2C78 /* UIView+Extension.swift */; };
+		D83839FE29DA497D00EA2C78 /* SectionTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83839FD29DA497D00EA2C78 /* SectionTitleView.swift */; };
+		D8383A0029DA4BAF00EA2C78 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83839FF29DA4BAF00EA2C78 /* BaseViewController.swift */; };
 		D865CD5B29C7D6540041057C /* HomeProviderMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D865CD5A29C7D6540041057C /* HomeProviderMock.swift */; };
 		D865CD5F29C7D6C50041057C /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D865CD5E29C7D6C50041057C /* Utils.swift */; };
 		D865CD6129C7D6E20041057C /* Channel.json in Resources */ = {isa = PBXBuildFile; fileRef = D865CD6029C7D6E20041057C /* Channel.json */; };
@@ -77,6 +79,8 @@
 		D83839F629DA346000EA2C78 /* BootomSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootomSheetViewController.swift; sourceTree = "<group>"; };
 		D83839F729DA346000EA2C78 /* BootomSheetViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BootomSheetViewController.xib; sourceTree = "<group>"; };
 		D83839FB29DA34A100EA2C78 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		D83839FD29DA497D00EA2C78 /* SectionTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTitleView.swift; sourceTree = "<group>"; };
+		D83839FF29DA4BAF00EA2C78 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		D865CD5A29C7D6540041057C /* HomeProviderMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProviderMock.swift; sourceTree = "<group>"; };
 		D865CD5E29C7D6C50041057C /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		D865CD6029C7D6E20041057C /* Channel.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Channel.json; sourceTree = "<group>"; };
@@ -229,6 +233,7 @@
 				D83839FA29DA348100EA2C78 /* Extension */,
 				D865CD5E29C7D6C50041057C /* Utils.swift */,
 				D865CD6729C7D80E0041057C /* MockManager.swift */,
+				D83839FF29DA4BAF00EA2C78 /* BaseViewController.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -278,6 +283,7 @@
 				D8CBFE2829CA47A900E5F0CE /* VideoCell.xib */,
 				D8CBFE2B29CA47BF00E5F0CE /* PlaylistCell.swift */,
 				D8CBFE2C29CA47BF00E5F0CE /* PlaylistCell.xib */,
+				D83839FD29DA497D00EA2C78 /* SectionTitleView.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -573,6 +579,7 @@
 				D865CD5F29C7D6C50041057C /* Utils.swift in Sources */,
 				D8DC7AE929AE9A2F00D15FEA /* SceneDelegate.swift in Sources */,
 				D8D023B929B8CE7D00E3ED89 /* ChannelViewController.swift in Sources */,
+				D8383A0029DA4BAF00EA2C78 /* BaseViewController.swift in Sources */,
 				D823AFF029B8021900CEEE12 /* VideoModel.swift in Sources */,
 				D8CBFE2029CA473100E5F0CE /* DequeuableRegistrableCell.swift in Sources */,
 				D865CD6829C7D80E0041057C /* MockManager.swift in Sources */,
@@ -585,6 +592,7 @@
 				D8CE0C0C29BB699B00506E9C /* NetworkError.swift in Sources */,
 				D823AFF429B8056300CEEE12 /* PlayListModel.swift in Sources */,
 				D8CBFE2D29CA47BF00E5F0CE /* PlaylistCell.swift in Sources */,
+				D83839FE29DA497D00EA2C78 /* SectionTitleView.swift in Sources */,
 				D83839FC29DA34A100EA2C78 /* UIView+Extension.swift in Sources */,
 				D8CBFE2529CA479400E5F0CE /* ChannelCell.swift in Sources */,
 				D8D023B029B8CBD500E3ED89 /* RootPageViewController.swift in Sources */,

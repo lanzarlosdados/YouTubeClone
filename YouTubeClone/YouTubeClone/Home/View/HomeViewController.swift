@@ -23,6 +23,7 @@ class HomeViewController: UIViewController {
                                 ChannelCell.self,
                                 PlaylistCell.self,
                                 VideoCell.self])
+        tableView.registerFromClass(headerFooterView: SectionTitleView.self)
         
         super.viewDidLoad()
         Task{
@@ -68,6 +69,7 @@ extension HomeViewController : UITableViewDelegate, UITableViewDataSource {
             channelCell.configCell(model: channel[indexPath.row])
             channelCell.moreInformation = {
                 let vc = AboutViewController()
+                self.navigationController?.pushViewController(vc, animated: true)
             }
             return channelCell
             
@@ -99,8 +101,13 @@ extension HomeViewController : UITableViewDelegate, UITableViewDataSource {
         return UITableViewCell()
     }
     
-    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return dataSectionTitleList[section]
-    }
     
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        guard let sectionView = tableView.dequeueReusableHeaderFooterView(withIdentifier: "\(SectionTitleView.self)") as? SectionTitleView else{
+            return nil
+        }
+        sectionView.title.text = dataSectionTitleList[section]
+        sectionView.configView()
+        return sectionView
+    }
 }

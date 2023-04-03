@@ -7,13 +7,13 @@
 
 import UIKit
 
-class MainViewController: UIViewController {
+class MainViewController: BaseViewController {
     
     var rootPageViewController : RootPageViewController!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        configNavigationBar()
     }
     
 
