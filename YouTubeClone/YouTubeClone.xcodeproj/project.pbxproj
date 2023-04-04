@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -30,6 +30,8 @@
 		D865CD6529C7D7120041057C /* PlaylistItem.json in Resources */ = {isa = PBXBuildFile; fileRef = D865CD6429C7D7120041057C /* PlaylistItem.json */; };
 		D865CD6829C7D80E0041057C /* MockManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D865CD6729C7D80E0041057C /* MockManager.swift */; };
 		D865CD6929C7DB5F0041057C /* Playlist.json in Resources */ = {isa = PBXBuildFile; fileRef = D865CD6629C7D7200041057C /* Playlist.json */; };
+		D8BFFBBE29DB3ACD008F9286 /* PlayVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BFFBBC29DB3ACD008F9286 /* PlayVideoViewController.swift */; };
+		D8BFFBBF29DB3ACD008F9286 /* PlayVideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8BFFBBD29DB3ACD008F9286 /* PlayVideoViewController.xib */; };
 		D8C7C2A729C117C000A3B5EA /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C7C2A629C117C000A3B5EA /* HomePresenter.swift */; };
 		D8CBFE2029CA473100E5F0CE /* DequeuableRegistrableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CBFE1F29CA473100E5F0CE /* DequeuableRegistrableCell.swift */; };
 		D8CBFE2529CA479400E5F0CE /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CBFE2329CA479400E5F0CE /* ChannelCell.swift */; };
@@ -88,6 +90,8 @@
 		D865CD6429C7D7120041057C /* PlaylistItem.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PlaylistItem.json; sourceTree = "<group>"; };
 		D865CD6629C7D7200041057C /* Playlist.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Playlist.json; sourceTree = "<group>"; };
 		D865CD6729C7D80E0041057C /* MockManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockManager.swift; sourceTree = "<group>"; };
+		D8BFFBBC29DB3ACD008F9286 /* PlayVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayVideoViewController.swift; sourceTree = "<group>"; };
+		D8BFFBBD29DB3ACD008F9286 /* PlayVideoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayVideoViewController.xib; sourceTree = "<group>"; };
 		D8C7C2A629C117C000A3B5EA /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
 		D8CBFE1F29CA473100E5F0CE /* DequeuableRegistrableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DequeuableRegistrableCell.swift; sourceTree = "<group>"; };
 		D8CBFE2329CA479400E5F0CE /* ChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = "<group>"; };
@@ -247,6 +251,15 @@
 				D865CD6629C7D7200041057C /* Playlist.json */,
 			);
 			path = Mock;
+			sourceTree = "<group>";
+		};
+		D8BFFBBB29DB3AB7008F9286 /* PlayVideo */ = {
+			isa = PBXGroup;
+			children = (
+				D8BFFBBC29DB3ACD008F9286 /* PlayVideoViewController.swift */,
+				D8BFFBBD29DB3ACD008F9286 /* PlayVideoViewController.xib */,
+			);
+			path = PlayVideo;
 			sourceTree = "<group>";
 		};
 		D8C8C28029D9C7A800BC8293 /* Model */ = {
@@ -426,6 +439,7 @@
 				D8D023B529B8CE5E00E3ED89 /* Video */,
 				D8D023B429B8CE1600E3ED89 /* About */,
 				D8D023B329B8CE1400E3ED89 /* Home */,
+				D8BFFBBB29DB3AB7008F9286 /* PlayVideo */,
 				D8D023B129B8CE0A00E3ED89 /* Playlist */,
 				D8D023AC29B8CB4100E3ED89 /* Main */,
 				D823AFEE29B8014000CEEE12 /* Model */,
@@ -478,7 +492,7 @@
 				};
 			};
 			buildConfigurationList = D8DC7ADE29AE9A2F00D15FEA /* Build configuration list for PBXProject "YouTubeClone" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -516,6 +530,7 @@
 				D83839F929DA346000EA2C78 /* BootomSheetViewController.xib in Resources */,
 				D8D023C629B8CEB200E3ED89 /* HomeViewController.xib in Resources */,
 				D8DC7AEE29AE9A2F00D15FEA /* Main.storyboard in Resources */,
+				D8BFFBBF29DB3ACD008F9286 /* PlayVideoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -574,6 +589,7 @@
 				D8C7C2A729C117C000A3B5EA /* HomePresenter.swift in Sources */,
 				D8CE0C0E29BB699B00506E9C /* ServiceLayer.swift in Sources */,
 				D8DC7AE729AE9A2F00D15FEA /* AppDelegate.swift in Sources */,
+				D8BFFBBE29DB3ACD008F9286 /* PlayVideoViewController.swift in Sources */,
 				D865CD5B29C7D6540041057C /* HomeProviderMock.swift in Sources */,
 				D8CBFE2929CA47A900E5F0CE /* VideoCell.swift in Sources */,
 				D865CD5F29C7D6C50041057C /* Utils.swift in Sources */,

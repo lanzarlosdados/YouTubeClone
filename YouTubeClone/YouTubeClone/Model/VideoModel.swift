@@ -30,7 +30,7 @@ struct VideoModel: Decodable {
         }
         
         struct VideoID : Codable {
-            let kind,channelId,playlistId : String?
+            let kind,channelId,playlistId,videoId : String?
         }
         
         struct Snippet: Codable {

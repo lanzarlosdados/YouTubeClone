@@ -16,10 +16,10 @@ struct PlayListItemModel: Codable {
     struct Item: Codable {
         let kind, etag, id: String
         let snippet: Snippet
-        let contentDetails: ContentDetails
+        let contentDetails: ContentDetails?
         
         struct ContentDetails: Codable {
-            let videoID: String
+            let videoID: String?
             let videoPublishedAt: String
 
             enum CodingKeys: String, CodingKey {
