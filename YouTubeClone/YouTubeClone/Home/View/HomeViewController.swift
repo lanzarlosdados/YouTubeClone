@@ -8,7 +8,7 @@
 import UIKit
 import FloatingPanel
 
-class HomeViewController: UIViewController {
+class HomeViewController: BaseViewController {
     @IBOutlet weak var tableView: UITableView!
     
     lazy var presenter = HomePresenter(delegate: self)
@@ -43,6 +43,7 @@ class HomeViewController: UIViewController {
 }
 
 extension HomeViewController : HomeViewProtocol {
+    
     func getData(list: [[Any]], sectionTitleList: [String]) {
         
         dataObject = list
@@ -123,7 +124,10 @@ extension HomeViewController : UITableViewDelegate, UITableViewDataSource {
             
         }else if let videos = item as? [VideoModel.Item]{
             videoId = videos[indexPath.row].id.videoId ?? ""
+        }else {
+            return
         }
+        
         if floatingPanelIsPresented{
             fpc?.willMove(toParent: nil)
             fpc?.hide(animated: true, completion: {[weak self] in
