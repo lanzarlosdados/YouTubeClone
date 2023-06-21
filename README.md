@@ -2,12 +2,12 @@
 
 Contenido de la App.
 
-Liberías 
+# Liberías 
   FloatingPannel
   youtube-ios-player-helper
   Kingfisher
 
-Componentes de UI
+# Componentes de UI
   UITable View
   UITable ViewCell
   UlPageViewController
@@ -18,17 +18,17 @@ Componentes de UI
   Custom Views
   Auto Layout
   UIScrollView
-Herramientas.
+# Herramientas.
   Xcode
   Git Fork / Consola
   Sketch
-Swift 5
+# Swift 5
   Class, Struct, Enum. Map, Foreach, For,
   Filter.
   Generic Types
   Closures
   Combine Framework
-Concurrencia
+# Concurrencia
   Completion Handles.
   Async Await.
   Main Actors.
@@ -36,16 +36,16 @@ Concurrencia
   Manejo de Errores.
   Service Layer
   JSON Decode
-Patrones de diseño y arquitectura
+# Patrones de diseño y arquitectura
   Patrón Delegations.
   Patrón Dependency Injection.
   Patrón Singleton, Patrón Observer.
   Patrón de Arquitectura MVP y MVVM.
-Mocks
+# Mocks
   Creación de Mocks.
   Utilizando mocks para Unit Testing.
   Método genérico para leer JSONs
-Testing
+# Testing
   Unit Testing
   Convenciones.
   Expectations.
