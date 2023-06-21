@@ -1,6 +1,5 @@
 # YouTubeClone
 
-Contenido de la App.
 
 # Liberías 
   FloatingPannel
